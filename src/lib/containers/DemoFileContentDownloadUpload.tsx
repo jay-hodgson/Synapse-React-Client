@@ -4,7 +4,7 @@ import { getEntity, getFileEntityContent, uploadFile, updateEntity } from '../ut
 import { Entity } from '../utils/jsonResponses/Entity'
 import { FileUploadComplete } from '../utils/jsonResponses/FileUploadComplete'
 
-type FileContentDownloadUploadDemoState = {
+type DemoFileContentDownloadUploadState = {
   token?: string,
   error?: any,
   isLoading?: boolean,
@@ -12,14 +12,14 @@ type FileContentDownloadUploadDemoState = {
   targetEntity?: FileEntity
 }
 
-export type FileContentDownloadUploadDemoProps = {
+export type DemoFileContentDownloadUploadProps = {
   token?: string,
   targetEntityId: string
 }
 
 export default class FileContentDownloadUploadDemo
-  extends React.Component<FileContentDownloadUploadDemoProps, FileContentDownloadUploadDemoState> {
-  constructor(props: FileContentDownloadUploadDemoProps) {
+  extends React.Component<DemoFileContentDownloadUploadProps, DemoFileContentDownloadUploadState> {
+  constructor(props: DemoFileContentDownloadUploadProps) {
     super(props)
     this.state = {
       token: '',

@@ -5,7 +5,8 @@ import { SynapseClient, SynapseConstants } from '../../lib/utils/'
 import './App.css'
 import QueryWrapperMenu, { MenuConfig } from 'src/lib/containers/QueryWrapperMenu'
 import Uploader from 'src/lib/containers/Uploader'
-import FileContentDownloadUploadDemo from 'src/lib/containers/FileContentDownloadUploadDemo'
+import DemoFileContentDownloadUpload from 'src/lib/containers/DemoFileContentDownloadUpload'
+import DemoChallengeSubmissionForm from 'src/lib/containers/DemoChallengeSubmissionForm'
 
 type DemoState = {
   token: string
@@ -230,6 +231,19 @@ class Demo extends React.Component<{}, DemoState> {
         {
           (this.state.token && this.state.token !== '') &&
           <div className="container">
+            <h3>Challenge Submission Form demo.</h3>
+            <h5>The following is completely driven by a json schema (and ui schema)</h5>
+            <hr />
+            <DemoChallengeSubmissionForm
+              token={this.state.token!}
+              parentContainerId="syn18987891"
+            />
+            <hr />
+          </div>
+        }
+        {
+          (this.state.token && this.state.token !== '') &&
+          <div className="container">
             <h5>Upload File(s) Demo</h5>
             <Uploader
               token={this.state.token!}
@@ -242,7 +256,7 @@ class Demo extends React.Component<{}, DemoState> {
           (this.state.token && this.state.token !== '') &&
           <div className="container">
             <h5>Download File Content Demo (syn12196718)</h5>
-            <FileContentDownloadUploadDemo
+            <DemoFileContentDownloadUpload
               token={this.state.token!}
               targetEntityId="syn12196718"
             />

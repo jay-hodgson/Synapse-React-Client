@@ -6,7 +6,6 @@ import SearchDemo from './SearchDemo'
 import UserCardDemo from './UserCardDemo'
 import { MarkdownSynapseDemo } from './MarkdownSynapseDemo'
 import { NewsFeedDemo } from './NewsFeedDemo'
-import { ChallengeSurveyDemo } from './ChallengeSurveyDemo'
 
 /**
  * Demo of features that can be used from src/demo/utils/SynapseClient
@@ -34,9 +33,6 @@ const App = ({ match }: { match: match }) => {
           </li>
           <li>
             <Link to={`${match.url}/NewsFeedDemo`}>NewsFeedDemo</Link>
-          </li>
-          <li>
-            <Link to={`${match.url}/ChallengeSurveyDemo`}>ChallengeSurveyDemo</Link>
           </li>
         </ul>
 
@@ -80,13 +76,6 @@ const App = ({ match }: { match: match }) => {
           // tslint:disable-next-line:jsx-no-lambda
           component={() => <NewsFeedDemo/>}
         />
-        <Route
-          exact={true}
-          path={`${match.url}/ChallengeSurveyDemo`}
-          // tslint:disable-next-line:jsx-no-lambda
-          component={() => <ChallengeSurveyDemo/>}
-        />
-
         <Route
           exact={true}
           path={match.path}

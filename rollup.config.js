@@ -104,7 +104,7 @@ export default {
 			'markdownitMath': 'markdownitMath',
 			'sanitizeHtml': 'sanitizeHtml',
 			'prop-types' : 'PropTypes',
-			'sql-parser' : 'sqlParser'
+			'sql-parser' : 'sqlParser'			
 		},
 		format: 'umd',
 		name: 'SRC',

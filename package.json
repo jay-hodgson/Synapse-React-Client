@@ -62,7 +62,7 @@
     "react-test-renderer": "^16.4.2",
     "react-tooltip": "^3.9.2",
     "react-transition-group": "2.6.0",
-    "rollup-plugin-babel-minify": "^8.0.0",
+    "uglify-es": "^3.3.9",
     "rss-parser": "^3.7.1",
     "sanitize-html": "^1.18.4",
     "sql-parser": "^0.5.0",

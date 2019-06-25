@@ -6,7 +6,7 @@ import svg from 'rollup-plugin-svg'
 import json from 'rollup-plugin-json'
 import postprocess from 'rollup-plugin-postprocess'
 import commonjs from 'rollup-plugin-commonjs'
-import minify from 'rollup-plugin-babel-minify'
+import UglifyJS from 'uglify-es'
 /* 
 	TODO: 
 		1. inline svgs for css don't work, easy work around is convert svg to exported
@@ -78,7 +78,7 @@ export default {
 		// Common js is used to handle the import of older javascript modules not using es6 
 		commonjs(),
 		// minify the bundle
-		minify()
+		UglifyJS.minify()
 	],
 	output: {
 		globals: {

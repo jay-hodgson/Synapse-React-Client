@@ -48,7 +48,7 @@
     "markdown-it-sup-alt": "^1.0.2",
     "markdown-it-synapse": "^1.1.1",
     "markdown-it-synapse-heading": "^1.0.1",
-    "markdown-it-synapse-math": "^3.0.4",
+    "markdown-it-synapse-math": "^3.0.5",
     "markdown-it-synapse-table": "^1.0.6",
     "node-sass": "4.12.0",
     "plotly.js-basic-dist": "^1.47.3",

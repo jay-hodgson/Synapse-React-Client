@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d999b442032c18d38809f2fc8abcb5ed",
+    "revision": "4f1cef966776d4cff3ce0aa513d1c4ab",
     "url": "/Synapse-React-Client/index.html"
   },
   {
-    "revision": "6f55b692c6912d8b0fb8",
+    "revision": "de857d1d22364fee7b62",
     "url": "/Synapse-React-Client/static/css/main.32d068cb.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Synapse-React-Client/static/js/2.75452815.chunk.js"
   },
   {
-    "revision": "6f55b692c6912d8b0fb8",
-    "url": "/Synapse-React-Client/static/js/main.1e37aed3.chunk.js"
+    "revision": "de857d1d22364fee7b62",
+    "url": "/Synapse-React-Client/static/js/main.21a2957f.chunk.js"
   },
   {
     "revision": "2c9d04f8a25b69919894",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Synapse-React-Client/static/css/main.32d068cb.chunk.css",
-    "main.js": "/Synapse-React-Client/static/js/main.1e37aed3.chunk.js",
-    "main.js.map": "/Synapse-React-Client/static/js/main.1e37aed3.chunk.js.map",
+    "main.js": "/Synapse-React-Client/static/js/main.21a2957f.chunk.js",
+    "main.js.map": "/Synapse-React-Client/static/js/main.21a2957f.chunk.js.map",
     "runtime-main.js": "/Synapse-React-Client/static/js/runtime-main.1d660317.js",
     "runtime-main.js.map": "/Synapse-React-Client/static/js/runtime-main.1d660317.js.map",
     "static/js/2.75452815.chunk.js": "/Synapse-React-Client/static/js/2.75452815.chunk.js",
     "static/js/2.75452815.chunk.js.map": "/Synapse-React-Client/static/js/2.75452815.chunk.js.map",
     "index.html": "/Synapse-React-Client/index.html",
-    "precache-manifest.c2c0b22f2687cd8b949fc2019e0d2d19.js": "/Synapse-React-Client/precache-manifest.c2c0b22f2687cd8b949fc2019e0d2d19.js",
+    "precache-manifest.79c349d28d2c25100e834da01793b4ae.js": "/Synapse-React-Client/precache-manifest.79c349d28d2c25100e834da01793b4ae.js",
     "service-worker.js": "/Synapse-React-Client/service-worker.js",
     "static/css/main.32d068cb.chunk.css.map": "/Synapse-React-Client/static/css/main.32d068cb.chunk.css.map",
     "static/media/DNA_Two.svg": "/Synapse-React-Client/static/media/DNA_Two.d8f80972.svg",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.1d660317.js",
     "static/js/2.75452815.chunk.js",
     "static/css/main.32d068cb.chunk.css",
-    "static/js/main.1e37aed3.chunk.js"
+    "static/js/main.21a2957f.chunk.js"
   ]
 }

@@ -46,15 +46,12 @@ class QueryWrapperPlotNavDemo extends React.Component<
           searchable: [
             {
               columnName: 'assay',
-              hintText: 'RNASeq',
             },
             {
               columnName: 'name',
-              hintText: 'SynOdos',
             },
             {
-              columnName: 'consortium',
-              hintText: 'amp-ad',
+              columnName: 'consortium',              
             },
           ],
         },
@@ -118,7 +115,7 @@ class QueryWrapperPlotNavDemo extends React.Component<
               )
               // collect all selected rows (create PartialRow objects)
               const rowUpdates: PartialRow[] = []
-              const rows: Row[] = event.data?.queryResult.queryResults!.rows
+              const rows: Row[] = event.data?.queryResult.queryResults!.rows!
               for (
                 let index = 0;
                 index < event.selectedRowIndices!.length;
